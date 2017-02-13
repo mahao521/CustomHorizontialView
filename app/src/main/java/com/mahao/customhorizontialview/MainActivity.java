@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void onWindowFocusChanged(boolean hasFocus) {
 
         super.onWindowFocusChanged(hasFocus);
-        LoopHorizontalScrollView horizontalScrollView = (LoopHorizontalScrollView) findViewById(R.id.horizontalScrollView);
-        horizontalScrollView.init(this);
-
         final CustomHorizontialView customView = (CustomHorizontialView) findViewById(R.id.my_custom_scroller_view);
         customView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override

@@ -24,7 +24,7 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
+  <!--  <RelativeLayout
         android:paddingTop="6dp"
         android:paddingBottom="6dp"
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:layout_centerVertical="true"
             android:scrollbars="none" />
 
-    </RelativeLayout>
+    </RelativeLayout>-->
 
     <HorizontalScrollView
         android:layout_width="wrap_content"

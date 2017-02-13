@@ -21,23 +21,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import android.content.Context;
-import android.graphics.Color;
-import android.util.AttributeSet;
-import android.util.Log;
-import android.view.Gravity;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
-import android.widget.HorizontalScrollView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-
 /**
  * Description：描述
  * 邮箱：wanglelong@yzhlbj.com
@@ -222,7 +205,6 @@ public class LoopHorizontalScrollView extends HorizontalScrollView implements Vi
                             onItemClickListener.onItemClick(current_item % child_count);
                         }
                         break;
-
                 }
 
                 if (pre_item == 0) {
